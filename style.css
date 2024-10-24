@@ -1,70 +1,70 @@
-html {
-  height: 100%;
-  width: 100%;
-  background-color: lightblue;
+html { /* tells which element is changing*/
+  height: 100%; /* height is 100*/
+  width: 100%;/* width is 100*/
+  background-color: lightblue; /* background color is light blue*/
 }
 
-h2 {
-  text-align: center;
+h2 { /*says h2 is getting changed */
+  text-align: center;/* aligns the text w the center*/
 }
 
 /* #heading will hold styling code that only pertains to items on the HTML file with the ID heading */
-nav {
-  background-color: white;
-  color: black;
-  padding: 5px;
-  text-align: center;
+nav { /*says nav is getting changed */
+  background-color: white; /* background color is white*/
+  color: black;/*makes text black */
+  padding: 5px;/* spacing goes to 5px*/
+  text-align: center;/* text alligns w center */
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: navy;
+ul { /* says ul is getting changed*/
+  list-style-type: none;/*list type is specified as none */
+  margin: 0;/* no margin*/
+  padding: 0;/*no spacing */
+  overflow: hidden;/* hides overflow*/
+  background-color: navy;/* background color is navy*/
 }
 
-li {
-  float: left;
+li { /*says il is getting changed */
+  float: left; /*lists are on the left side*/
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+li a { /* li a is getting changed */
+  display: block; /* shown as a block */
+  color: white;/* color is white*/
+  text-align: center;/* aligns text to center */
+  padding: 14px 16px;/* the space is 14px by 16px*/
+  text-decoration: none;/* no text decorations */
 }
 
 /* .city1 will hold styling code that pertains to all items on the HTML file with the class city1, regardless of their tag */
-.city1 {
-  background-color: tomato;
-  color: white;
-  padding: 10px;
+.city1 { /* city 1 is gettin changed */
+  background-color: tomato; /* background color is tomato */
+  color: white;/* color is white*/
+  padding: 10px;/* spacing is 10px */
 } 
 
 /* .city2 will hold styling code that pertains to all items on the HTML file with the class city2, regardless of their tag */
-.city2 {
-  background-color: lightsalmon;
-  color: white;
-  padding: 10px;
+.city2 { /* city 2 getting changed*/
+  background-color: lightsalmon; /*background color is light salmon */
+  color: white;/* color is white*/
+  padding: 10px; /* spacing is 10px*/
 } 
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: auto;
-  border: solid 5px;
+img { /*img is getting changed*/
+  display: block;/* displayed as a block*/
+  margin-left: auto;/* margins to left, automatically*/
+  margin-right: auto;/* margins to right, automatically*/
+  width: 50%;/* width is 50 */
+  height: auto;/* height is auto */
+  border: solid 5px;/* border is solid and 5px*/
 }
 
-.image1 {
-  border-color: white;
-  padding: 5px;
+.image1 {/* image1 gets changed*/
+  border-color: white;/* border color is white*/
+  padding: 5px;/* spacing is 5px*/
 }
 
-.image2 {
-  border-color: white;
-  padding: 20px;
+.image2 {/* image2 getting changed*/
+  border-color: white;/* border color is white*/
+  padding: 20px;/* spcing is 20px*/
 }
